@@ -1,0 +1,512 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.form-main {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230613/pngtree-writing-hand-with-a-pen-image_2957513.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.form-main .submission-form {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.form-main .submission-form .form-block {
+  background-color: #fff;
+}
+.form-main .submission-form .form-block .icon {
+  text-align: center;
+}
+.form-main .submission-form .form-block .icon i {
+  font-size: 40px;
+  color: #007DFE;
+}
+.form-main .submission-form .form-block .field-flex {
+  gap: 12px;
+}
+.form-main .submission-form .form-block .field-flex .filed-blocks {
+  margin-top: 10px;
+  width: 230px;
+}
+.form-main .submission-form .form-block .field-flex .filed-blocks label {
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+.form-main .submission-form .form-block .field-flex .filed-blocks .form-inputs {
+  width: 100%;
+  padding: 4px 12px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.form-main .submission-form .form-block .field-flex .filed-blocks .radio-buttons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.form-main .submission-form .form-block .field-flex .filed-blocks .error-msg {
+  font-size: 15px;
+  color: red;
+}
+.form-main .submission-form .form-block .field-blocks {
+  margin-top: 10px;
+  width: 100%;
+}
+.form-main .submission-form .form-block .field-blocks label {
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+.form-main .submission-form .form-block .field-blocks .form-inputs {
+  width: 100%;
+  padding: 6px 12px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.form-main .submission-form .form-block .field-blocks .radio-buttons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.form-main .submission-form .form-block .field-blocks .error-msg {
+  font-size: 15px;
+  color: red;
+}
+.form-main .submission-form .form-block .submit-button {
+  width: 100%;
+  text-align: center;
+  background-color: rgb(50, 50, 235);
+  border: none;
+  padding: 5px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+.form-main .submission-form .form-block .course-block {
+  margin: 10px 0px;
+}
+.form-main .submission-form .form-block .course-block .checkbox {
+  margin-right: 5px;
+}
+.form-main .submission-form .img-block img {
+  width: 450px;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.form-main .submission-form .img-block .suggestion {
+  margin: 0 20px;
+}
+.form-main .submission-form .img-block .suggestion span {
+  color: blue;
+  cursor: pointer;
+}
+
+.login-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://iipsranchi.com/img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.login-main .login-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.login-main .login-form form .icon {
+  text-align: center;
+}
+.login-main .login-form form .icon i {
+  font-size: 35px;
+}
+.login-main .login-form form .filed-blocks {
+  margin-top: 10px;
+}
+.login-main .login-form form .filed-blocks label {
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+.login-main .login-form form .filed-blocks .form-inputs {
+  width: 100%;
+  padding: 4px 12px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.login-main .login-form form .login-btn {
+  width: 100%;
+  margin: 20px 0px;
+  padding: 4px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(50, 50, 235);
+  cursor: pointer;
+  color: #fff;
+}
+.login-main .login-form form .suggestion {
+  margin-bottom: 0;
+}
+.login-main .login-form form .suggestion span {
+  color: blue;
+  cursor: pointer;
+}
+
+.nav-section .nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2d2d2d;
+  color: #fff;
+  padding: 12px 20px;
+}
+.nav-section .nav-bar .logo {
+  display: flex;
+  align-items: center;
+}
+.nav-section .nav-bar .logo .menu-icon {
+  font-size: 28px;
+  cursor: pointer;
+  margin-right: 16px;
+}
+.nav-section .nav-bar .logo h3 {
+  margin: 0;
+  font-size: 22px;
+}
+.nav-section .nav-bar .nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-section .nav-bar .nav-links li {
+  cursor: pointer;
+  padding: 0px 20px;
+}
+.nav-section .nav-bar .profile-section {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.nav-section .nav-bar .profile-section i {
+  font-size: 18px;
+}
+.nav-section .nav-bar .profile-section button {
+  font-size: 16px;
+  padding: 0px 4px;
+  border: none;
+  border-radius: 4px;
+}
+.nav-section .sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: #1a1a1a;
+  color: white;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+.nav-section .sidebar.open {
+  transform: translateX(0);
+}
+.nav-section .sidebar .sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid #444;
+}
+.nav-section .sidebar .sidebar-header .close-icon {
+  font-size: 28px;
+  cursor: pointer;
+}
+.nav-section .sidebar .sidebar-menu {
+  list-style: none;
+  padding: 14px;
+}
+.nav-section .sidebar .sidebar-menu li {
+  padding: 12px;
+  cursor: pointer;
+}
+.nav-section .sidebar .sidebar-menu li:hover {
+  background-color: #333;
+}
+.nav-section .users-table {
+  transition: margin-left 0.3s ease-in-out;
+  margin-left: 0;
+  width: 100%;
+}
+.nav-section .users-table.shifted {
+  margin-left: 260px;
+  width: calc(100% - 270px);
+}
+.nav-section .users-table h2 {
+  text-align: center;
+}
+.nav-section .users-table table {
+  width: 100%;
+  border: 1px solid grey;
+}
+.nav-section .users-table table th {
+  padding: 5px;
+  border: 1px solid grey;
+  font-weight: 600;
+}
+.nav-section .users-table table td {
+  padding: 5px;
+  border: 1px solid grey;
+}
+
+.todo-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.todo-main .todo {
+  width: 500px;
+  padding: 30px;
+  background-color: #007DFE;
+  border-radius: 4px;
+}
+.todo-main .todo h3 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.todo-main .todo .input-block {
+  display: flex;
+}
+.todo-main .todo .input-block input {
+  width: 100%;
+  padding: 4px 10px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+  outline: none;
+}
+.todo-main .todo .input-block button {
+  padding: 4px 10px;
+  border: none;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.todo-main .todo ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+.todo-main .todo ul li {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  color: white;
+  border-radius: 4px;
+}
+.todo-main .todo ul li .buttons button {
+  width: 70px;
+  padding: 4px 10px;
+  background-color: greenyellow;
+  border: none;
+}
+.todo-main .todo ul li .buttons .delete {
+  background-color: red;
+  color: white;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border: none;
+}
+
+.counter-main {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counter-main .counter-app {
+  width: 500px;
+  border-radius: 4px;
+  background-color: violet;
+  padding: 20px;
+}
+.counter-main .counter-app h1,
+.counter-main .counter-app h2 {
+  text-align: center;
+}
+.counter-main .counter-app .buttons {
+  text-align: center;
+}
+.counter-main .counter-app .buttons button {
+  width: 80px;
+  border: none;
+  border-radius: 3px;
+  margin-right: 4px;
+  padding: 2px 3px;
+  background-color: chartreuse;
+}
+.counter-main .counter-app .buttons .stop {
+  background-color: red;
+}
+.counter-main .counter-app .buttons .restart {
+  background-color: yellow;
+}
+
+.card-main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.card-main .card-block {
+  width: 350px;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: antiquewhite;
+}
+.card-main .card-block img {
+  width: 100%;
+}
+.card-main .card-block .content {
+  margin-top: 20px;
+}
+.card-main .card-block button {
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: none;
+  font-weight: 600;
+  background-color: blue;
+  color: white;
+}
+
+.counting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 15px auto;
+}
+.counting i {
+  font-size: 18px;
+  background-color: whitesmoke;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+.counting p {
+  background-color: #fff;
+  width: 40px;
+  text-align: center;
+  margin: 0;
+  padding: 4px 0px;
+}
+
+.task {
+  display: flex;
+}
+.task .sidebar {
+  width: 250px;
+  background-color: #fff;
+  height: 585px;
+  position: sticky;
+  top: 0;
+}
+.task .sidebar h3 {
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: 600;
+}
+.task .sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+.task .sidebar ul .item {
+  display: flex;
+  padding: 5px 20px;
+  margin: 20px;
+  background-color: #444;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  justify-content: space-between;
+  align-items: center;
+}
+.task .sidebar ul .item input {
+  width: 15px;
+  height: 15px;
+}
+.task .cards-block {
+  width: 100%;
+  background-color: #444;
+}
+.task .cards-block input {
+  width: 93%;
+  margin: 20px 35px;
+  padding: 5px 15px;
+  border-radius: 8px;
+  border: none;
+}
+.task .cards-block .cards-main {
+  overflow-y: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.task .cards-block .cards-main .cards {
+  width: 300px;
+  margin: 20px 0px;
+  border: 2px solid #007DFE;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 10px;
+}
+.task .cards-block .cards-main .cards img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: #a5a2a2;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.task .cards-block .cards-main .cards .content {
+  padding: 0px 10px;
+  margin-top: 10px;
+}
+.task .cards-block .cards-main .cards .content h4 {
+  font-weight: 600;
+  color: #007DFE;
+}
+.task .cards-block .cards-main .cards .content h5 {
+  font-size: 24px;
+}
+.task .cards-block .cards-main .cards .content p {
+  color: rgb(173, 169, 169);
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Number of lines before truncation */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}/*# sourceMappingURL=style.css.map */
