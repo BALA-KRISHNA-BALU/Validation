@@ -10,6 +10,8 @@
 //   }
 // }
 
+import { useState } from "react"
+
 // const message = ({ text, name }) => {
 //   return <div>
 //     <h1>{text}</h1>
@@ -61,7 +63,7 @@
 //     return (
 //       <div style={{ backgroundColor: "blue", padding: "20px" }}>
 //         <h1>parent component</h1>
-//         <WrappedComponent {...props} /> 
+//         <WrappedComponent {...props} />
 //       </div>
 //     )
 //   }
@@ -72,3 +74,17 @@
 // }
 
 // const EnhancedMessage = Hoc(Message);
+
+// const [isAuthentication, setIsAuthentication] = useState(false);
+
+const isAuthentication = true;
+
+const Hoc = (Component) => {
+  return (props) => {
+    return <div>
+      {isAuthentication ? <Component {...props} />:<h1>login page</h1>}
+    </div>
+  }
+}
+
+export default Hoc;

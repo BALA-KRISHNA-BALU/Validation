@@ -5,6 +5,7 @@ import App from "./props";
 import TodoList from "./Todo";
 // import Hoc from "./Hoc";
 // import Wrapping from "./Hoc";
+import Valid from "./AppHoc";
 
 
 function DashBoard() {
@@ -17,6 +18,7 @@ function DashBoard() {
       <App />
       {/* <Hoc/> */}
       {/* <Wrapping/> */}
+      <Valid/>
     </>
   );
 }
